@@ -1,0 +1,63 @@
+/*
+
+General Syntax
+
+*/
+
+.block {
+}
+
+.block__element {
+}
+
+.block--modifier {
+}
+
+.block__element--modifier {
+}
+
+
+/*
+
+Example
+
+
+<div class="nav">
+  <a href="#" class="nav__trigger">hamburger_icon</a>
+
+  <ul class="nav__items">
+    <li class="nav__item">
+      <a href="#" class="nav__link">About</a>
+    </li>
+
+    <li class="nav__item">
+      <a href="#" class="nav__link">Blog</a>
+    </li>
+
+    <li class="nav__item">
+      <a href="#" class="nav__link">Contact</a>
+    </li>
+  </ul>
+</div>
+
+*/
+
+.nav {
+    /* styles */
+}
+
+.nav__items {
+    /* styles */
+}
+
+.nav__item {
+    /* styles */
+}
+
+.nav__link {
+    /* styles */
+}
+
+.nav__link--active {
+    /* styles */
+}

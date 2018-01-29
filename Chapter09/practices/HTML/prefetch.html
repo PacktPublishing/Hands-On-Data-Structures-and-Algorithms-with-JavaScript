@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- a very large image -->
+    <link rel="prefetch" href="http://gfsnt.no/oen/foto/Haegefjell_Jan_2013_Large.jpg">
+</head>
+
+<body>
+    <script>
+        window.onload = function() {
+            setTimeout(function() {
+                var x = document.createElement("IMG");
+                x.setAttribute("src", "http://gfsnt.no/oen/foto/Haegefjell_Jan_2013_Large.jpg");
+
+                document.body.appendChild(x);
+            }, 5000);
+        }
+    </script>
+</body>
+</html>

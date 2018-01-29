@@ -1,0 +1,18 @@
+/*
+
+Browser Specific styles
+
+
+*/
+
+/* bad */
+
+* {
+    color: rgba(255, 0, 0, 0.3);
+}
+
+/* good */
+
+* {
+    color: #ff00004d
+}
