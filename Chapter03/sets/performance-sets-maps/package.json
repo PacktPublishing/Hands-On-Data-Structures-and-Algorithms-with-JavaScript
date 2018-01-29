@@ -1,0 +1,10 @@
+{
+  "name": "performance-sets-maps",
+  "version": "1.0.0",
+  "description": "Performance comparision of sets and maps",
+  "author": "Kashyap Mukkamala",
+  "license": "ISC",
+  "dependencies": {
+    "benchmark": "^2.1.4"
+  }
+}

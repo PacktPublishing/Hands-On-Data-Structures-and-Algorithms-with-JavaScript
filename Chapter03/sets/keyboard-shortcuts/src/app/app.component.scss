@@ -1,0 +1,22 @@
+.active {
+    color: red;
+}
+
+nav {
+    button {
+      &::first-letter {
+        font-weight:bold;
+        text-decoration: underline;
+        font-size: 1.2em;
+      }
+    }
+}
+
+.bottom-right {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: rgba(0,0,0, 0.5);
+  color: white;
+  padding: 20px;
+}
