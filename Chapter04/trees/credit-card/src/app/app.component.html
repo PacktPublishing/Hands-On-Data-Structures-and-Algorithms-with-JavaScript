@@ -1,0 +1,33 @@
+<div class="split">
+    <div *ngIf="tree">
+        <tree-view [data]="[tree]"></tree-view>
+    </div>
+</div>
+<div class="split">
+    <h3>Overall accuracy {{accuracyPct | number}}%</h3>
+
+    <table>
+        <thead>
+            <th>Credit Score</th>
+            <th>Credit Age</th>
+            <th>Remarks</th>
+            <th>Utilization</th>
+            <th>Hard Inquiries</th>
+            <th>Expected</th>
+            <th>Actual</th>
+            <th>Accurate</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let test of tests">
+                <td>{{test.creditScore}}</td>
+                <td>{{test.creditAge}}</td>
+                <td>{{test.remarks}}</td>
+                <td>{{test.utilization}}</td>
+                <td>{{test.hardInquiries}}</td>
+                <td>{{test.expected}}</td>
+                <td>{{test.actual}}</td>
+                <td [class]="test.accurate">{{test.accurate}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

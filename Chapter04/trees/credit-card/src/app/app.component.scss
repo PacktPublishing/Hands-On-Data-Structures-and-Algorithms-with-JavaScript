@@ -1,0 +1,27 @@
+.split {
+    width: 50%;
+    float: left
+}
+
+table, td, th {
+  text-align: center;
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  height: 50px;
+}
+
+
+.true {
+  background: #bcf9bc;
+}
+
+.false {
+  background: #ffa2a7;
+}

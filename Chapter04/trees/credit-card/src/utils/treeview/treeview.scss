@@ -1,0 +1,48 @@
+ul {
+  list-style: none;
+  line-height: 40px;
+  position: relative;
+
+  &::before{
+    content: "";
+    height: calc(100% - 60px);
+    display: block;
+    top: 40px;
+    left: 60px;
+    border-left: 1px solid #333;
+    position: absolute;
+  }
+}
+
+li {
+  position: relative;
+
+  &::before{
+    content: "";
+    width: 20px;
+    display: block;
+    top: 50%;
+    left: -20px;
+    border-bottom: 1px solid #333;
+    position: absolute;
+    transform: translateY(-50%);
+  }
+}
+
+.name {
+  padding: 10px;
+  background: #e1f4ff;
+}
+
+.leaf {
+  padding: 10px;
+  position: relative;
+
+  &.Yes {
+    background: #bcf9bc;
+  }
+
+  &.No {
+    background: #ffa2a7;
+  }
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "name": "A",
+    "relations": [
+      {
+        "name": "E",
+        "relation": "Brother"
+      },
+      {
+        "name": "F",
+        "relation": "Sister"
+      },
+      {
+        "name": "B",
+        "relation": "Wife"
+      },
+      {
+        "name": "D",
+        "relation": "Son"
+      },
+      {
+        "name": "C",
+        "relation": "Daughter"
+      }
+    ]
+  },
+  {
+    "name": "B",
+    "relations": [
+      {
+        "name": "A",
+        "relation": "Husband"
+      },
+      {
+        "name": "D",
+        "relation": "Son"
+      },
+      {
+        "name": "C",
+        "relation": "Daughter"
+      }
+    ]
+  },
+  {
+    "name": "C",
+    "relations": [
+      {
+        "name": "A",
+        "relation": "Father"
+      },
+      {
+        "name": "B",
+        "relation": "Mother"
+      },
+      {
+        "name": "D",
+        "relation": "Brother"
+      }
+    ]
+  },
+  {
+    "name": "D",
+    "relations": [
+      {
+        "name": "A",
+        "relation": "Father"
+      },
+      {
+        "name": "B",
+        "relation": "Mother"
+      },
+      {
+        "name": "C",
+        "relation": "Sister"
+      }
+    ]
+  },
+  {
+    "name": "E",
+    "relations": [
+      {
+        "name": "A",
+        "relation": "Brother"
+      },
+      {
+        "name": "F",
+        "relation": "Sister"
+      }
+    ]
+  },
+  {
+    "name": "F",
+    "relations": [
+      {
+        "name": "E",
+        "relation": "Brother"
+      },
+      {
+        "name": "A",
+        "relation": "Brother"
+      },
+      {
+        "name": "G",
+        "relation": "Son"
+      }
+    ]
+  },
+  {
+    "name": "G",
+    "relations": [
+      {
+        "name": "F",
+        "relation": "Mother"
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+<ul *ngFor="let node of data">
+    <li *ngIf="node.name">
+        <!-- show name when available -->
+        <span class="name">{{node.name}}</span>
+    </li>
+    <!-- is not root node, render branches recursively -->
+    <tree-view *ngIf="!node.leaf" [data]="node.branches"></tree-view>
+
+    <!-- if leaf node render node value -->
+    <li *ngIf="node.leaf">
+        <span class="leaf {{node.value}}">{{node.value}}</span>
+    </li>
+</ul>

@@ -1,0 +1,10 @@
+
+<input type="text" placeholder="search countries" #searchInp (keyup)="search(searchInp.value)" />
+
+<div *ngFor="let resp of searchResp">
+    <strong>{{searchInp.value}}</strong>{{resp}}
+</div>
+
+<div *ngIf="searchInp.value && !searchResp.length">
+    No results found for {{searchInp.value}}
+</div>
