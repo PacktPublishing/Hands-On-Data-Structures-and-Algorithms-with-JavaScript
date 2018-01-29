@@ -1,0 +1,12 @@
+<nav>
+    <button mat-button routerLink="/about" routerLinkActive="active">About</button>
+    <button mat-button routerLink="/dashboard" routerLinkActive="active">Dashboard</button>
+    <button mat-button routerLink="/home" routerLinkActive="active">Home</button>
+    <button mat-button routerLink="/profile" routerLinkActive="active">Profile</button>
+</nav>
+
+<router-outlet></router-outlet>
+
+<footer>
+    <button mat-fab (click)="goBack()" >Back</button>
+</footer>

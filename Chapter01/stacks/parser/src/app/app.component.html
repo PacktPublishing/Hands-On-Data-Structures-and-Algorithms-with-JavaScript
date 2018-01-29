@@ -1,0 +1,10 @@
+<mat-grid-list cols="2" rowHeight="2:1">
+    <mat-grid-tile>
+        <textarea class="full" (keyup)="codeChange()" [(ngModel)]="code"></textarea>
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <div class="full">
+            Result: {{result}}
+        </div>
+    </mat-grid-tile>
+</mat-grid-list>

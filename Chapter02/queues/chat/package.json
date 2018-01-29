@@ -1,0 +1,19 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "simple chat application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node tests/benchmark.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "benchmark": "^2.1.4"
+  }
+}
