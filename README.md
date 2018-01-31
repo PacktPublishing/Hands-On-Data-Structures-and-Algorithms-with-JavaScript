@@ -32,6 +32,3 @@ Familiarity with Angular 2.0 or greater is a plus but is not required
 * [Hands-On Data Science and Python Machine Learning](https://www.packtpub.com/big-data-and-business-intelligence/hands-data-science-and-python-machine-learning?utm_source=github&utm_medium=repository&utm_campaign=9781787280748)
 
 * [Taming Big Data with Spark Streaming and Scala - Hands On! [Video]](https://www.packtpub.com/big-data-and-business-intelligence/taming-big-data-spark-streaming-and-scala-–-hands-video?utm_source=github&utm_medium=repository&utm_campaign=9781787123915)
-
-### Suggestions and Feedback
-[Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
