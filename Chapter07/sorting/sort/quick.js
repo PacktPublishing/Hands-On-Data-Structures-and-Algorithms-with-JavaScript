@@ -42,12 +42,12 @@ class Quick {
 
 		// sort values lesser than pivot position recursively
 		if(low < pivot - 1) {
-			this.sort(data, low, pivot - 1);
+			this.sort(data, low, pivot - 1, sort);
 		}
 
 		// sort values greater than pivot position recursively
 		if(high > pivot) {
-			this.sort(data, pivot, high);
+			this.sort(data, pivot, high, sort);
 		}
 
 		// return sorted data
@@ -94,7 +94,7 @@ class Quick {
 		var i = low;
 
 		// loop over all values except the last (pivot)
-		for(var j = low; j < high - 1; j++) {
+		for(var j = low; j < high; j++) {
 
 			// if value greater than pivot
 			if (data[j].pages >= data[pivot].pages) {
