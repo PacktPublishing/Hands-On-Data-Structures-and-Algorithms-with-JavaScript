@@ -32,3 +32,7 @@ Familiarity with Angular 2.0 or greater is a plus but is not required
 * [Hands-On Data Science and Python Machine Learning](https://www.packtpub.com/big-data-and-business-intelligence/hands-data-science-and-python-machine-learning?utm_source=github&utm_medium=repository&utm_campaign=9781787280748)
 
 * [Taming Big Data with Spark Streaming and Scala - Hands On! [Video]](https://www.packtpub.com/big-data-and-business-intelligence/taming-big-data-spark-streaming-and-scala-–-hands-video?utm_source=github&utm_medium=repository&utm_campaign=9781787123915)
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to download a free PDF copy of this book.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781788398558">https://packt.link/free-ebook/9781788398558 </a> </p>
